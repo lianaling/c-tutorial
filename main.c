@@ -48,7 +48,7 @@ int main()
 	book1.book_id = 1;
 
 	printBook(book1);
-	printBookWithPointer(&bookp);
+	printBookWithPointer(bookp);
 
 	return 0;
 }
