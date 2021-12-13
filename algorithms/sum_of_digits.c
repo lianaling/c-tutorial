@@ -14,7 +14,9 @@ int sum_digits(int n){
 }
 
 int main(){
-	int n = 12345;
-	printf("Sum of %d: %d", n, sum_digits(n));
+	int n;
+	printf("Enter an integer: ");
+	scanf("%d", &n);
+	printf("Sum of %d: %d\n", n, sum_digits(n));
 	return 0;
 }
